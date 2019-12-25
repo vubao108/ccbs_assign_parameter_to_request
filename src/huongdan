@@ -1,0 +1,15 @@
+1. copy body request to file src/body_request
+vi du:
+    <phoct_id>string</phoct_id>
+    <userid>string</userid>
+    <mst>string</mst>
+
+2. copy ds parameter tu c# den file src/parameter_value, vidu:
+    chuyenkhoan_id	""	string
+    chuyenkhoan_idField	""	string
+    dia_chi_bc	null	string
+    dia_chi_bcField	null	string
+    dia_chi_ct	"Khu Hoàng Xá, Thị trấn An Lão, Huyện An Lão, Hải Phòng"	string
+    dia_chi_ctField	"Khu Hoàng Xá, Thị trấn An Lão, Huyện An Lão, Hải Phòng"	string
+
+3. chay file process.py va an Enter
